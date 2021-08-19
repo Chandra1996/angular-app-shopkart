@@ -1,0 +1,26 @@
+<div class="container-product-list">
+    <div class='category-heading'>
+        <h5>jewelery</h5> 
+     </div>
+    <div class="row product-list" >
+        <ng-container *ngFor="let item of productList | category:'jewelery'" >
+        <div class="card col-md-3" style="width: 18rem;">
+            <div class="item-image">
+                <img src= "{{item.image}}"class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class='item-title'>{{item.title}}</h5>
+              <p class="card-text item-description">{{item.description}}</p>
+              <p> Price : $ {{item.price}}</p>
+              <div class='add-to-cart'>
+                  <button class="add-to-cart-btn" (click)='addToCart(item)'><i class="fas fa-cart-plus"></i>Add to cart</button>
+                
+              </div>
+            </div>
+        </div>
+    </ng-container>
+    </div>
+</div>
+
+
+

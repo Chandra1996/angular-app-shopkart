@@ -1,0 +1,134 @@
+
+.card{
+    margin: 30px;
+    border: none;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+}
+
+.card-top{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.card-top img{
+    height: 50px;
+    width: 50px;
+}
+
+.card img{
+    padding: 2rem;
+    
+ }
+ .add-to-cart{
+     margin-bottom: 5px;
+ }
+ .add-to-cart-btn{
+    
+    padding: 4px 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border: black 1px solid;
+    font-size:15px;
+    
+ }
+ .a{
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ .add-to-cart-btn:hover{
+    background: black;
+    color: rgb(255, 255, 255);
+ }
+.add-to-cart i{
+    margin-right: 10px;
+}
+.add-to-cart a{
+    font-family:cursive;
+}
+.items:hover{
+    cursor: pointer;
+    color: rgb(49, 94, 241);
+}
+
+.product-list{
+    justify-content:space-evenly;
+    padding: 1rem;
+    
+}
+
+
+.item-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+.item-description{
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+}
+.items a{
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+}
+
+.items a :hover{
+    text-decoration: none;
+    color: rgb(52, 70, 173);
+}
+
+.item-image{
+    height: 300px;
+    
+}
+
+.item-image img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.container-product-list{
+    background-color: rgb(229, 229, 240);
+    
+}
+.search-div{
+    background-color: rgb(229, 229, 240)
+}
+
+.search-icon{
+    position: absolute;
+    right:20px;
+    top: 15px;
+    
+}
+
+.position-relative{
+    position: relative;
+    padding: 10px;
+    
+}
+.form-control{
+    
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(12, 7, 59, 0.178);
+    height: 35px;
+    font-size: small;
+}

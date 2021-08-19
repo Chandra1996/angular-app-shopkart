@@ -1,0 +1,94 @@
+i{
+    color: rgb(255, 255, 255);
+    font-size: 30px ;
+}
+
+header{
+    width: 100vw;
+}
+
+.bag-item{
+    color: rgb(255, 255, 255);
+    margin-left: 3vw;
+    
+}
+
+.navbar-color{
+    background-color: rgb(4, 3, 10);
+}
+
+strong{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    
+}
+
+.form-group{
+    font-family: Roboto,Arial,sans-serif;;
+}
+.form-control{
+    margin-left: 20px;
+    border-radius: 2px;
+    width: 40vw;
+    box-shadow: 0 0 13px rgba(12, 7, 59, 0.452);
+    height: 30px;
+    
+    
+}
+
+.navbar-brand{
+    margin-left: 5px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+
+.search-icon{
+    position: absolute;
+    right:10px;
+    top: 1px;
+    
+}
+
+.search-icon i{
+    color: rgb(0, 53, 139);
+    font-size:20px;
+
+}
+.search-icon i:hover{
+    cursor:pointer;
+}
+
+
+.cart-button{
+    position: relative;
+    padding-right: 20px;
+    background-color: transparent;
+    border: none;
+}
+.cart-button i{
+    font-size: 23px;
+}
+.cart-button i:hover{
+    color: rgb(208, 218, 226);
+}
+
+.no-of-items-in-cart{
+    position: absolute;
+    right:4vw;
+    top: -7px;
+    
+    
+}
+
+.header-logo{
+    cursor: pointer;
+}
+
+.shopping-cart-logo{
+    margin-right: 3vw;
+    
+}
+

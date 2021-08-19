@@ -1,0 +1,62 @@
+
+
+
+
+.card-myCart{
+    height: 80vh;
+    background-color: white;
+    
+}
+.table-conatainer{
+    background-color: white;
+}
+.card-title{
+    margin: 10px;
+}
+
+.card-container{
+   
+    background-color: rgb(229, 229, 240);
+    height: 100vh;
+    padding: 20px;
+}
+
+.center{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    height: 162px;
+    width: 250px;
+    margin: 20px 0;
+}
+
+h4,h5,h6{
+    font-weight: 400;
+}
+
+.btn-remove{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(201, 53, 53);
+    color: floralwhite;
+    height: 35px;
+    width: 35px;
+   
+}
+.btn-remove:hover{
+    background-color:rgb(160, 50, 50) ;
+}
+
+
+
+.empty-cart-btn btn-danger{
+    position: absolute;
+}

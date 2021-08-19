@@ -1,0 +1,23 @@
+<header>
+    <div class="navbar  shadow-sm navbar-color navbar-media">
+        <div class="navbar-brand align-item-center d-flex">
+            <div class=header-logo routerLink='products'>
+                <i class="fab fa-shopify bag-item"   >&nbsp;</i>
+                <strong >Shopkart</strong>
+            </div>
+            
+            <!-- <div class="form-group position-relative">
+                <input type="text" class= 'form-control' placeholder="Search product">
+                <span class='search-icon'><i class="fas fa-search"></i></span>
+            </div> -->
+        </div>
+        <button routerLink='cart' class='cart-button'>
+            <i class="fas fa-shopping-cart shopping-cart-logo"></i>
+            
+            <span *ngIf="totalItem !null" class="badge bg-danger no-of-items-in-cart" >{{totalItem}}</span>
+        </button>
+        
+    </div>
+    
+    
+  </header>
